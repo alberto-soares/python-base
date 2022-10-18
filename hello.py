@@ -23,7 +23,7 @@ __license__ = "Unlicense"
 
 import os
 # os.environ["LANG"] = "en_US.utf8"
-current_language = os.getenv("LANG")[:5]
+current_language = os.getenv("LANG")[:5] # cinco caracteres
 # snake caswe
 
 msg = "Hello, World!"
@@ -32,7 +32,7 @@ if current_language == "pt_BR":
     msg = "Olá, Mundo!"
 elif current_language == "it_IT":
     msg = "Ciao, Mondo!"
-elif current_language == "es_ES":
+elif current_language == "es_SP":
     msg = "Hola, Mundo!"
 elif current_language == "de_DE":
     msg = "Hallo, Welt!"
